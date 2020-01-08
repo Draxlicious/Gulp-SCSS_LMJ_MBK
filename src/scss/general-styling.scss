@@ -3,3 +3,29 @@ body{
 	min-height:100vh;
 	background-color:#555;
 }
+
+main{
+	min-height:45vh;
+	box-sizing: border-box;
+	padding:25px;
+	h1,h2{
+		margin:0;
+	}
+}
+
+.grid-seperated{
+	display:grid;
+	grid-template-columns:3fr 1fr;
+}
+
+footer{
+	background-color:#777;
+
+	div{
+		box-sizing: border-box;
+		padding:25px;
+		background-color:#777;
+		height:20vh;
+		text-align:center;
+	}
+}
