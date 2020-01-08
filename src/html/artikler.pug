@@ -12,5 +12,16 @@ block banner
 		p.banner-text SOMETHING RELATED TO THE COMPANY'S ARTICLES
 
 block content
-	main
-		h1 Artikler
+	//- remove grid-seperated class to avoid having the sidebar shown on this particular page
+	main.grid-seperated
+		div.main-div
+			h1 Artikler
+			div.articles-container
+				div.single-article-container
+					h1.article-title Historien om gaming
+					img(src="https://dummyimage.com/500x350/000/fff", alt="Article Image").article-image
+					h3.article-author Author: John Doe
+					h3.article-category Category: Gaming
+					p.article-content Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, totam repudiandae laboriosam maiores cum labore aliquid provident, dolore accusantium blanditiis quae ad numquam consequatur nam asperiores placeat quisquam eos voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, dolorem temporibus. Nobis blanditiis doloremque aspernatur, corrupti alias, incidunt quam ipsum non ut dolor molestias iure perferendis dolore fugit, facere deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat porro sed impedit nihil temporibus, vero adipisci cum sint repellat quisquam doloremque eum dolor ullam quos consequatur nesciunt voluptatum. Voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum eos dolor deserunt repudiandae dolorum dolores ratione laborum reprehenderit molestiae id ullam consequatur, vel commodi! Quam, accusamus quis. Modi, vel.
+		aside.main-sidebar
+			h2 Artikler Sidebar

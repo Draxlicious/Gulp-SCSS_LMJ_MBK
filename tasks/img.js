@@ -10,7 +10,13 @@ function imageTask(){
 };
 
 
+function watchImg(){
+	return gulp.watch("src/img/*", {ignoreInitial:false}, imageTask);
+}
+
+
 
 module.exports = {
-	imageTask
+	imageTask,
+	watchImg
 }

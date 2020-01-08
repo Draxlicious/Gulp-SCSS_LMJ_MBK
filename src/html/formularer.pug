@@ -12,5 +12,9 @@ block banner
 		p.banner-text SOMETHING RELATED TO THE COMPANY'S FORMULARS
 
 block content
-	main
-		h1 Formularer
+	//- remove grid-seperated class to avoid having the sidebar shown on this particular page
+	main.grid-seperated
+		div.main-div
+			h1 Formularer
+		aside.main-sidebar
+			h2 Formularer Sidebar

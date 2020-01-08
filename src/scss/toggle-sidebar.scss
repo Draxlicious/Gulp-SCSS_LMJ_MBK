@@ -1,0 +1,12 @@
+aside{
+	display:none;
+}
+
+// Comment out line 6-12 to remove sidebar from EVERY Html page
+.grid-seperated{
+	display:grid;
+	grid-template-columns:3fr 1fr;
+	aside{
+		display:block;
+	}
+}

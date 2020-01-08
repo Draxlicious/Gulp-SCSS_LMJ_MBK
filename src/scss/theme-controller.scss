@@ -1,0 +1,23 @@
+$grey-header-theme:#333;
+$grey-body-theme:#555;
+$grey-footer-theme:#777;
+
+$orange-header-theme:rgb(202, 131, 0);
+$orange-body-theme:rgb(190, 137, 36);
+$orange-footer-theme:rgb(100, 65, 0);
+
+$red-header-theme:rgb(255, 0, 0);
+$red-body-theme:rgb(175, 26, 26);
+$red-footer-theme:rgb(99, 1, 1);
+
+header{
+	background-color:$orange-header-theme;
+}
+
+body{
+	background-color:$grey-body-theme;
+}
+
+footer{
+	background-color:$red-footer-theme;
+}

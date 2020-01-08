@@ -2,13 +2,14 @@ var connect = require("gulp-connect");
 var { watchHTML, htmlTask, watchLayoutHTML } = require("./tasks/html");
 var { jsTask, watchJS } = require("./tasks/js");
 var { scssTask, watchSCSS, } = require("./tasks/scss");
-var { imageTask } = require("./tasks/img")
+var { imageTask, watchImg } = require("./tasks/img")
 
 function watch(){
 	watchHTML();
 	watchSCSS();
 	watchJS();
 	watchLayoutHTML();
+	watchImg();
 
 	connect.server({
 		livereload: true,

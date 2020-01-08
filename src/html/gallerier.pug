@@ -12,5 +12,9 @@ block banner
 		p.banner-text SOMETHING RELATED TO THE COMPANY'S GALLERY
 
 block content
-	main
-		h1 Gallerier
+	//- remove grid-seperated class to avoid having the sidebar shown on this particular page
+	main.grid-seperated
+		div.main-div
+			h1 Gallerier
+		aside.main-sidebar
+			h2 Gallerier Sidebar
