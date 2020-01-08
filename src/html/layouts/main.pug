@@ -8,14 +8,21 @@ html(lang="en")
 		block title
 			
 	body
-		header
-			a(href="#!").siteBrand Company Brand
+		header.header
+			//- a(href="#!").siteBrand Company Brand
 			nav
 				ul
 					li
 						a(href="/") Forside
 					li
-						a(href="/kontakt") Kontakt
+						a(href="/artikler") Artikler
+					li
+						a(href="/gallerier") Gallerier
+					li
+						a(href="/formularer") Formularer
+			form
+				input(type="text" placeholder="Søg")
+				
 		//- block content er en variabel placeret her så man kan tilføje indhold fra hovedfilerne
 		block content
 		footer
